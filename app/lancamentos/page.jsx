@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
   return (
-    <div className=" w-screen bg-gray-100 flex  flex-col justify-center">
+    <div className=" w-screen bg-gray-100 flex flex-col justify-center items-center">
       <div className="w-full max-w-md bg-white min-h-screen">
         {/* TOPO */}
         <div>
@@ -101,8 +101,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* BOTÃO FIXO SACOLA */}
-      <div className=" flex justify-center bg-white p-4 shadow-[0_-4px_10px_rgba(0,0,0,0.05)]">
+
+      <div className=" flex justify-center bg-white items-center">
         <Link
           href="/sacola"
           className="w-full max-w-md bg-green-500 text-white font-bold rounded-3xl text-center"
