@@ -100,7 +100,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className=" flex justify-center bg-white items-center">
+        <div className=" flex justify-center bg-white items-center mt-10">
         <Link
           href="/sacola"
           className="w-full max-w-md bg-green-500 text-white font-bold rounded-3xl text-center"
