@@ -27,11 +27,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-40 w-screen bg-transparent flex flex-col items-start justify-start">
+          <div className="h-40 w-full bg-transparent flex flex-col items-start justify-start">
             <h1 className="text-black font-bold ml-2 mt-2">Sobre</h1>
             <p className="text-sm mt-2 ml-2 text-left text-zinc-400">Quatro Hambúrgueres (100% carne bovina), alface americana, queito fatiado sabor cheddar, molho especial, cebola, picles e pão com gergelim, acompanhamento de bebida</p>
           </div>
-          <div className="h-45 w-screen bg-transparent flex flex-col items-center justify-start">
+          <div className="h-45 w-full bg-transparent flex flex-col items-center justify-start">
             <div className="h-10 w-full bg-transparent flex items-center justify-start ">
               <ChefHat className="text-black w-10"/>
             <h1 className="text-black font-bold">Ingredientes</h1>
