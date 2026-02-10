@@ -9,7 +9,7 @@ export default function Home() {
           <Image
             src="/lanche.png"
             alt="Empresa"
-            width={200}
+            width={400}
             height={200}
             className="w-full h-44 object-cover"
           />
